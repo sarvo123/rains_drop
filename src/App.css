@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-image: url('/bg.png'); /* Add your background image here */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .rain-pattern {
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.917);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+  .grid-square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s;
+  }
+  

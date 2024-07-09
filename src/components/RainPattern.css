@@ -1,0 +1,15 @@
+.rain-pattern {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+  .grid-square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+  }
+  

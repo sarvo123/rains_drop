@@ -1,0 +1,27 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+  .grid-square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #716f6f;
+    background-color: rgb(10, 9, 9);
+    /* Red ....  --->  255 -->  191 ----> 128 ---> 64 ---> 1*/
+    /* color:rgb(255, 0, 0); */
+    /* color:rgb(204, 0, 0); */
+    /* color:rgb(153, 0, 0); */
+    /* color:rgb(102, 0, 0); */
+    /* color:rgb(1, 0, 0); */
+    /* color:rgb(255, 0, 0); */
+    /* color:rgb(255, 0, 0); */
+
+  }
+  
